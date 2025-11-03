@@ -4,60 +4,41 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Stormy Star's Personal Portfolio | Home</title>
+        <link rel="stylesheet" href="styleSheet.css" />
         <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
     </head>
     <body>
+        <marquee behavior="scroll" direction="left" scrollamount="10">₊‧°𐐪♡𐑂°‧₊Welcome to my personal portfolio! 𐙚 ‧₊˚ ⋅</marquee>
         <header>
-            <h1>Stormy Star's Portfolio</h1>
+            
+            <nav class="main-nav" aria-label="Main">
+                <a href="index.html" class="logo-link">
+                <img src="img/logo.png" alt="Home Button" width="200">
+                </a>
+                <a href="resume.html">Resume</a>
+                <a href="project.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="resume.html">Resume</a>
-            <a href="project.html">Projects</a>
-            <a href="contact.html">Contact</a>
-            <a href="experiments.html">Experiments</a>
-        </nav>
-        <main>
-            <section>
-                <h2>About Me</h2>
-                <img src="/img/stormyStar.png" alt="Stormy Star" width="300">
-                <p>I’m a <b>computer science</b> student at <em>UC San Diego</em> with a strong passion for front-end development and UI/UX design. I specialize in creating clean, accessible, and well-structured web applications. I love turning ideas into interactive experiences through thoughtful design and code. My current goal is to build a personal portfolio that showcases both my technical skills and creative perspective, and to pursue opportunities where I can continue learning and growing as a software engineer.</p>
-            </section>
-        </main>
-        <div class="Links">
-            <h3>My Personal Links</h3>
-                <a href="https://github.com"><img src="../img/githubLogo.png" alt="Github link" width="50"></a>
-                <a href="https://linkedin.com"><img src="../img/linkedinLogo.png" alt="LinkedIn link" width="50"></a>
-        </div>
-        <page-rating>
-            <form>
-            <fieldset>
-                <legend>Please rate this page!</legend>
-                <p>This website is in development! We'd love to hear your feedback.</p>
-                <label for="siteProgress">Site progress:</label>
-                <progress id="siteProgress" max="100" value="50">50%</progress>
-                <input type="radio" id="bad" name="rating" value="B">
-                <label for="bad">Bad</label>
-
-                <input type="radio" id="good" name="rating" value="G">
-                <label for="good">Good</label>
-
-                <input type="radio" id="excellent" name="rating" value="E">
-                <label for="excellent">Excellent</label>
-            </fieldset>
-            </form>
-        </page-rating>
-        <style>
-            footer {
-            text-align: center;
-            padding: 3px;
-            background-color: pink;
-            color: white;
-            }
-        </style>
-        <footer>
-            <p> Made with love by Stormy Star 𐙚 ‧₊˚ ⋅</p>
-        </footer>
+        <lace-border></lace-border>
+        <general-body>
+            <main>
+                <section>
+                    <h2>₊‧°𐐪♡𐑂°‧₊ About Me ₊‧°𐐪♡𐑂°‧₊</h2>
+                    <img src="/img/stormyStar.jpg" alt="A photo of Stormy Star" width="300">
+                    <p>I’m a <b>computer science</b> student at <em>UC San Diego</em> with a strong passion for front-end development and UI/UX design. I specialize in creating clean, accessible, and well-structured web applications. I love turning ideas into interactive experiences through thoughtful design and code. My current goal is to build a personal portfolio that showcases both my technical skills and creative perspective, and to pursue opportunities where I can continue learning and growing as a software engineer.</p>
+                </section>
+            </main>
+        </general-body>
+        <personal-links>
+            <h3>My Links <3</h3>
+            <a href="https://github.com"><img src="../img/githubLogo.png" alt="Github link" width="50"></a>
+            <a href="https://linkedin.com"><img src="../img/linkedinLogo.png" alt="LinkedIn link" width="50"></a>
+        </personal-links>
+            <footer>
+                <p> Made with love by Stormy Star 𐙚 ‧₊˚ ⋅</p>
+            </footer>
     </body>
 </html>
 

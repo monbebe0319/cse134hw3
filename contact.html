@@ -5,47 +5,42 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Stormy Star's Personal Portfolio | Contact</title>
         <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+        <link rel="stylesheet" href="styleSheet.css" />
     </head>
     <body>
+        <marquee behavior="scroll" direction="left" scrollamount="10">₊‧°𐐪♡𐑂°‧₊Welcome to my personal portfolio! 𐙚 ‧₊˚ ⋅</marquee>
         <header>
-            <h1>Contact</h1>
+            <nav class="main-nav" aria-label="Main">
+                <a href="index.html" class="logo-link">
+                <img src="img/logo.png" alt="Home Button" width="200">
+                </a>
+                <a href="resume.html">Resume</a>
+                <a href="project.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="resume.html">Resume</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
-            <a href="experiments.html">Experiments</a>
-        </nav>
-        <contact-me>
-            <h2>Get in Touch</h2>
-            <h3><i>Fill out the form below!</i></h3>
+        <lace-border></lace-border>
+        <general-body>
+            <contact-me>
+                <h2>₊‧°𐐪♡𐑂°‧₊Get in Touch₊‧°𐐪♡𐑂°‧₊</h2>
+                <h3><i>Fill out the form below!</i></h3>
 
-            <form>
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required><br><br>
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
 
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
 
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
 
-                <button type="submit">Send Message!</button>
-            </form>
+                    <button type="submit">Send Message!</button>
+                </form>
 
-            <p><strong>Your messages will be responded to within 24 hours.</strong></p>
-        </contact-me>
-
-        <other-info>
-            <h5>Other Ways to Reach Me</h5>
-            <h6>Listed in order of preference:</h6>
-            <ol>
-                <li><p>Email: <span style = "color: gray">stormystar@example.com</span></p></li>
-                <li><p>Phone: <span style = "color: gray">(123) 456-7890</span></p></li>
-                <li><p>Linkedin: <span style = "color: gray">linkedinUser</span></p></li>
-            </ol>
-        </other-info>
+                <p><strong>Your messages will be responded to within 24 hours.</strong></p>
+            </contact-me>
+        </general-body>
         <footer>
             <p> Made with love by Stormy Star 𐙚 ‧₊˚ ⋅</p>
         </footer>
