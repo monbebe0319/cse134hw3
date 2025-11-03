@@ -39,7 +39,7 @@
 
 h3, p, li{
     font-family: 'CustomFontItaliana', sans-serif;
-    font-size: 1rem;
+    font-size: .8rem;
     color: #fe8cac;
     margin-top: 1rem;
     padding: 0;
@@ -69,7 +69,6 @@ lace-border {
 h2{
     font-family: 'CustomFontItaliana', sans-serif;
     font-size: 1.5rem;
-    color:#fe8cac;
     margin-top: -6rem;
 }
 header nav{
@@ -96,6 +95,12 @@ header nav a {
   font-weight: bold;
   font-size: 1rem;
   transition: color 0.25s ease, transform 0.15s ease;
+}
+header nav a:hover {
+  color: #fe8cac; 
+  transform: scale(1.25); 
+  text-shadow: 0 0 5px rgba(254, 140, 172, 0.7);
+  text-decoration: underline;
 }
 footer{
     display: flex;
@@ -161,11 +166,47 @@ form textarea{
 form button{
     font-family: 'CustomFontItaliana', sans-serif;
     font-size: 1rem;
-    color: white;
-    background-color: #fe8cac;
+    color: #fe8cac;
+    background-color: color-mix(in srgb, #fe8cac 30%, pink);
     margin-top: 1rem;
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;
+}
+projects-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: white;
+    margin: 2rem;
+}
+details{
+    font-family: 'CustomFontItaliana', sans-serif;
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+summary{
+    font-family: 'CustomFontItaliana', sans-serif;
+    font-size: 1.25rem;
+    color: #fe8cac;
+    font-weight: bold;
+    cursor: pointer;
+}
+@layer accordion{
+  details{
+    border: 0.15rem solid #fe8cac;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin: 1rem 1rem 1rem ;
+    background-color: white;
+  }
+}
+@media(color-gamut: srgb){
+  h2{
+    color: color-mix(in srgb, #fe8cac 70%, pink);
+  }
 }

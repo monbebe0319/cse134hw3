@@ -1,33 +1,45 @@
 <!DOCTYPE html>
-<html lang ="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Stormy Star's Personal Portfolio | Projects/title>
-        <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-    </head>
-    <body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stormy Star's Personal Portfolio | Projects</title>
+    <link rel="stylesheet" href="styleSheet.css" />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+  </head>
+  <body>
+    <marquee behavior="scroll" direction="left" scrollamount="10">₊‧°𐐪♡𐑂°‧₊Welcome to my personal portfolio! 𐙚 ‧₊˚ ⋅</marquee>
         <header>
-            <h1>₊‧°𐐪♡𐑂°‧₊Projects₊‧°𐐪♡𐑂°‧₊</h1>
+            <nav class="main-nav" aria-label="Main">
+                <a href="index.html" class="logo-link">
+                <picture>
+                    <source srcset="img/logo.png" type="image/png">
+                    <img src="img/logo.png" alt="Home Button" width="200">
+                </picture>
+                </a>
+                <a href="resume.html">Resume</a>
+                <a href="project.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="resume.html">Resume</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
-            <a href="experiments.html">Experiments</a>
-        </nav>
-
-        <projects-section>
-            <h2>My Projects</h2>
-            <ol></ol>
-                <li><b>Personal Portfolio Website:</b> Designed and developed a personal portfolio website to showcase projects and skills using HTML, CSS, and JavaScript.</li>
-                <li><b>Weather App:</b> Created a weather application that fetches data from a public API and displays current weather conditions and forecasts using React.</li>
-                <li><b>Task Manager:</b> Built a task management tool with features like adding, editing, and deleting tasks, implemented with TypeScript and Bootstrap for styling.</li>
-            </ol>
-        </projects-section>
-        <footer>
-            <p> Made with love by Stormy Star 𐙚 ‧₊˚ ⋅</p>
-        </footer>
-    </body>
+        <lace-border></lace-border>
+        <projects-body>
+            <h2>₊‧°𐐪♡𐑂°‧₊ My Projects ₊‧°𐐪♡𐑂°‧₊</h2>
+            <details open>
+                <summary>Zoo Simulator Project</summary>
+                <p>Description: Developed a zoo simulator game using Unity and C#. The game allows players to create and manage their own zoo, including building enclosures, caring for animals, and attracting visitors.</p>
+                <p>Technologies Used: Unity, C#</p>
+                <p>Link: <a href="url">Zoo Simulator Repository</a></p>            </details>
+            </details>
+            <details open>
+                <summary>Speech to Text Project</summary>
+                <p>Description: Developed a speech-to-text application using Python and Google Cloud Speech-to-Text API. The application transcribes spoken language into written text, allowing for easy note-taking and documentation.</p>
+                <p>Technologies Used: x, y, z</p>
+                <p>Link: <a href="url">Speech to Text Repository</a></p>            </details>
+            </details>
+        </projects-body>
+    <footer>
+      <p>Made with love by Stormy Star 𐙚 ‧₊˚ ⋅</p>
+    </footer>
+  </body>
 </html>
