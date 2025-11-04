@@ -3,16 +3,16 @@
     h1, h2, h3,h4, p, li{
         color: black;
         font-family: 'CustomFontItaliana', sans-serif;
-        font-size: 12pt;
+        font-size: 10spt;
         margin-top: 1rem;
         padding: 0;
 
     }
-    #header,
-    #footer,
-    #nav,
-    #marquee {
+    
+    header,
+    footer,
+    nav,
+    marquee {
         display: none !important;
     }
 }
-
